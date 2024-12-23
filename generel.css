@@ -68,13 +68,49 @@ img {
   text-align: center;
 }
 
+/*************** INDEX CSS *********************/
+
 @media (min-width: 800px) {
-  .grid_1-2 {
+  .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .grid_1-1 {
+}
+
+/*************** INDEX SLUT *********************/
+
+/*************** TEMA SIDE CSS *********************/
+
+@media (min-width: 800px) {
+  .grid_1-2 {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
+
+/*************** TEMA SIDE CSS SLUT *********************/
+
+/*************** OM SIDE CSS *********************/
+
+@media (min-width: 800px) {
+  .grid_2-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .col-left {
+    grid-column: 1 / 2; /* Venstre kolonne */
+    grid-row: 1 / 2; /* Første række */
+  }
+
+  .col-right {
+    grid-column: 2 / 3; /* Højre kolonne */
+    grid-row: 1 / 2; /* Første række */
+  }
+}
+/*************** OM SIDE CSS SLUT *********************/
