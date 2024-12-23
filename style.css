@@ -1,3 +1,69 @@
-h1 {
+h1,
+a {
   color: #2449ef;
+  font-family: "Anton", serif;
+}
+
+a {
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 130px;
+}
+
+h2 {
+  color: #2449ef;
+  font-family: "Anton", serif;
+  font-size: 50px;
+}
+
+h3 {
+  color: #2449ef;
+  font-family: "Anton", serif;
+  font-size: 30px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.line1 {
+  position: relative;
+  left: 20%;
+  top: 50px;
+}
+
+.line2 {
+  position: relative;
+  left: 5%;
+  top: 80px;
+}
+
+.mig {
+  width: 50%;
+  height: auto;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.circel {
+  width: 20%;
+  margin-top: -50px; /* Flytter cirklen op */
+  margin-right: 20px; /* Flytter cirklen til højre */
+}
+
+.background_projekter {
+  background: #2449ef;
+}
+
+.projekt_overskrift {
+  color: white;
+  text-decoration: none;
 }

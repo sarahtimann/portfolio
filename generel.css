@@ -30,3 +30,51 @@ header {
 .menu a:hover {
   color: #8298d9;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.grid_2-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer_social_media {
+  display: flex;
+  justify-content: flex-end; /* Flyt ikonerne til højre */
+  align-items: center; /* Centrer lodret (valgfrit) */
+  gap: 30px; /* Reducer mellemrum */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_social_media img {
+  width: 40px;
+  height: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between; /* Fordel pladsen mellem logo og sociale medier */
+  align-items: center;
+  padding-top: 30px;
+}
+
+.footer p {
+  display: grid;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
