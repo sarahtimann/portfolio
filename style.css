@@ -55,11 +55,27 @@ h3 {
 
 /*************** INDEX SLUT *********************/
 
-.background_projekter {
-  background: #2449ef;
+/*************** PROJEKTER START *********************/
+
+/* Grid-container */
+.grid_2-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  text-align: center;
 }
 
-.projekt_overskrift {
-  color: white;
+/* Cirkler */
+.circle {
+  display: grid;
+  justify-items: center;
+  align-items: center;
   text-decoration: none;
 }
+
+.circle img {
+  width: 100%; /* Størrelse på cirklen */
+  height: auto;
+}
+
+/*************** PROJEKTER SLUT *********************/
