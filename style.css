@@ -63,19 +63,32 @@ h3 {
   grid-template-columns: 1fr;
   justify-items: center;
   text-align: center;
+  align-items: center;
 }
 
-/* Cirkler */
+/* Cirkel */
 .circle {
   display: grid;
   justify-items: center;
+  place-items: center;
   align-items: center;
   text-decoration: none;
+  position: relative;
 }
 
+.text-pic {
+  display: grid;
+  z-index: 2;
+  text-align: center;
+}
+
+.project-title {
+  color: white;
+}
 .circle img {
   width: 100%; /* Størrelse på cirklen */
   height: auto;
+  z-index: 1;
 }
 
 /*************** PROJEKTER SLUT *********************/
