@@ -55,7 +55,6 @@ img {
   display: flex;
   justify-content: space-between; /* Fordel pladsen mellem logo og sociale medier */
   align-items: center;
-  padding-top: 30px;
 }
 
 .footer p {
@@ -135,6 +134,18 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .line1 {
+    position: relative;
+    left: 10%;
+    top: 50px;
+  }
+
+  .line2 {
+    position: relative;
+    left: 2%;
+    top: 130px;
+  }
 }
 
 /*************** INDEX SLUT *********************/
@@ -144,12 +155,15 @@ img {
 @media (min-width: 800px) {
   .grid_1-2 {
     display: grid;
-    grid-template-rows: 1fr 1fr;
   }
 
   .col {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .order {
+    order: -1;
   }
 }
 
@@ -161,16 +175,6 @@ img {
   .grid_2-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-
-  .col-left {
-    grid-column: 1 / 2; /* Venstre kolonne */
-    grid-row: 1 / 2; /* Første række */
-  }
-
-  .col-right {
-    grid-column: 2 / 3; /* Højre kolonne */
-    grid-row: 1 / 2; /* Første række */
   }
 }
 /*************** OM SIDE CSS SLUT *********************/

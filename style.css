@@ -3,6 +3,9 @@ a {
   color: #2449ef;
   font-family: "Anton", serif;
 }
+main {
+  padding: 0 15px 0 15px;
+}
 
 a {
   font-size: 40px;
@@ -10,18 +13,25 @@ a {
 
 h1 {
   font-size: 70px;
+  padding: 0 0 30px 0;
 }
 
 h2 {
   color: #2449ef;
   font-family: "Anton", serif;
   font-size: 50px;
+  padding: 50px 0 0 0;
 }
 
 h3 {
   color: #2449ef;
   font-family: "Anton", serif;
   font-size: 30px;
+  padding: 20px 0 0 0;
+}
+
+p {
+  padding: 10px 0 0 0;
 }
 
 .logo {
@@ -92,3 +102,11 @@ h3 {
 }
 
 /*************** PROJEKTER SLUT *********************/
+
+/*************** OM START *********************/
+
+.portraet {
+  width: 100%;
+}
+
+/*************** OM SLUT *********************/
