@@ -186,6 +186,12 @@ img {
   .order {
     order: -1;
   }
+
+  .h2-tema {
+    grid-column: 2 / 3;
+    text-align: right;
+    margin-right: 130px;
+  }
 }
 
 /*************** TEMA SIDE CSS SLUT *********************/
