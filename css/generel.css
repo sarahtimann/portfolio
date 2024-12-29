@@ -137,14 +137,19 @@ img {
 
   .line1 {
     position: relative;
-    left: 10%;
-    top: 50px;
+    margin-left: 10px;
+    margin-top: 100px;
   }
 
   .line2 {
     position: relative;
     left: 2%;
-    top: 130px;
+    margin-top: 250px;
+  }
+
+  .mig {
+    width: 60%;
+    margin-top: 5px;
   }
 }
 
@@ -157,6 +162,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   .tema2-3 {
     display: grid;
     grid-column: 2 / 3;
@@ -203,5 +209,26 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .om-text1 {
+    display: grid;
+    grid-column: 1 / 2;
+  }
+
+  .om-text2 {
+    display: grid;
+    grid-column: 2 / 3;
+  }
+
+  .om-text3 {
+    display: grid;
+    grid-column: 3 / 4;
+  }
 }
+
 /*************** OM SIDE CSS SLUT *********************/
