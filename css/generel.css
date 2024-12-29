@@ -150,6 +150,27 @@ img {
 
 /*************** INDEX SLUT *********************/
 
+/*************** PROJEKTER SIDE CSS *********************/
+
+@media (min-width: 800px) {
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .tema2-3 {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .tema4-5 {
+    display: grid;
+    grid-column: 3 / span 4;
+  }
+}
+
+/*************** PROJEKTER SIDE SLUT *********************/
+
 /*************** TEMA SIDE CSS *********************/
 
 @media (min-width: 800px) {
