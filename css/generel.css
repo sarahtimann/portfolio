@@ -109,7 +109,7 @@ img {
     display: block;
     background-color: #e6e5d9;
     position: absolute;
-    top: 87px;
+    top: 80px;
     right: 0;
     left: 0;
     width: 100%;
@@ -196,7 +196,7 @@ img {
   .h2-tema {
     grid-column: 2 / 3;
     text-align: right;
-    margin-right: 130px;
+    margin-right: 143px;
   }
 }
 
@@ -230,5 +230,44 @@ img {
     grid-column: 3 / 4;
   }
 }
+
+/* .grid_2-2-2-2 {
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-left: 80px;
+  }
+
+  .html {
+    display: grid;
+    grid-column: 1 / 3;
+  }
+
+  .css {
+    display: grid;
+    grid-column: 3 / 5;
+  }
+
+  .js {
+    display: grid;
+    grid-column: 5 / 7;
+  }
+
+  .figma {
+    display: grid;
+    grid-column: 1/ 3;
+  }
+
+  .illustrator {
+    display: grid;
+    grid-column: 3 / 5;
+  }
+
+  .premiere {
+    display: grid;
+    grid-column: 5 / 7;
+  }
+} */
 
 /*************** OM SIDE CSS SLUT *********************/
