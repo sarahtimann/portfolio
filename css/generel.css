@@ -24,7 +24,7 @@ header {
   display: block;
   padding: 10px;
   color: #2449ef;
-  text-decoration: none;
+  text-decoration: none; /* Fjerner understregning ud for */
 }
 
 .menu a:hover {
@@ -39,15 +39,15 @@ img {
 .footer_social_media {
   display: flex;
   justify-content: flex-end; /* Flyt ikonerne til højre */
-  align-items: center; /* Centrer lodret (valgfrit) */
-  gap: 30px; /* Reducer mellemrum */
-  list-style: none;
+  align-items: center; /* Centrer lodret */
+  gap: 30px; /* Tilføjer mellemrum */
+  list-style: none; /* Fjerner prikker ud for */
   padding: 0;
   margin: 0;
 }
 
 .footer_social_media img {
-  width: 40px;
+  width: 40px; /* Størrelse på ikonerne */
   height: auto;
 }
 
@@ -61,10 +61,6 @@ img {
   display: grid;
   text-align: center;
 }
-
-/* footer a:hover {
-  color: #8298d9;
-} */
 
 /*************** BURGERMENU *********************/
 
@@ -86,6 +82,7 @@ img {
 .burger {
   display: none;
 }
+
 @media (max-width: 840px) {
   .menu {
     display: none;
@@ -133,27 +130,39 @@ img {
 
 /*************** INDEX CSS *********************/
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
+  .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+    width: auto;
+  }
+
   .line1 {
     position: relative;
-    margin-left: 10px;
-    margin-top: 100px;
+    left: 25%;
+    margin-top: 110px;
   }
 
   .line2 {
     position: relative;
-    left: 2%;
-    margin-top: 250px;
+    left: 10%;
+    margin-top: 30px;
   }
 
   .mig {
     width: 60%;
     margin-top: 5px;
+  }
+
+  .footer-index {
+    margin-top: 150px;
   }
 }
 
@@ -161,10 +170,14 @@ img {
 
 /*************** PROJEKTER SIDE CSS *********************/
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .grid_2-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .circle {
+    max-width: 100%;
   }
 
   .tema2-3 {
@@ -183,7 +196,7 @@ img {
 
 /*************** TEMA SIDE CSS *********************/
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .grid_1-2 {
     display: grid;
   }
@@ -208,7 +221,7 @@ img {
 
 /*************** OM SIDE CSS *********************/
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .grid_2-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
