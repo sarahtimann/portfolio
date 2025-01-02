@@ -98,6 +98,12 @@ p {
   text-decoration: none;
 }
 
+.link-item:hover .text {
+  color: white;
+  transform: scale(1.1); /* Justere for meget teksten i cirklen udvider sig når musen er henover */
+  transition: transform 0.5s ease;
+}
+
 .circle {
   max-width: 80%;
   object-fit: cover;
