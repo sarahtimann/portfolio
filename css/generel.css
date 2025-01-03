@@ -115,7 +115,7 @@ img {
     display: block;
     background-color: #e6e5d9;
     position: absolute;
-    top: 80px;
+    top: 50px;
     right: 0;
     left: 0;
     width: 100%;
@@ -153,12 +153,14 @@ img {
     position: relative;
     left: 25%;
     margin-top: 110px;
+    font-size: 90px;
   }
 
   .line2 {
     position: relative;
     left: 10%;
     margin-top: 30px;
+    font-size: 90px;
   }
 
   .mig {
@@ -185,13 +187,23 @@ img {
     max-width: 100%;
   }
 
-  .tema2-3 {
+  .tema2 {
     display: grid;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
   }
 
-  .tema4-5 {
+  .tema3 {
+    display: grid;
+    grid-column: 3 / span 4;
+  }
+
+  .tema4 {
+    display: grid;
+    grid-column: 2 / 3;
+  }
+
+  .tema5 {
     display: grid;
     grid-column: 3 / span 4;
   }
@@ -218,12 +230,18 @@ img {
   .h2-tema {
     grid-column: 2 / 3;
     text-align: right;
-    margin-right: 143px;
+    margin-right: -20px;
+  }
+
+  .link-container {
+    display: flex;
+    justify-content: flex-end; /* Sørg for, at indholdet placeres til venstre */
   }
 
   .link-passion {
-    display: flex;
-    justify-content: flex-end;
+    max-width: none;
+    display: inline-block;
+    margin-left: 0; /* Fjern evt. margin, hvis det tidligere blev brugt til højrejustering */
   }
 }
 
@@ -255,6 +273,14 @@ img {
   .om-text3 {
     display: grid;
     grid-column: 3 / 4;
+  }
+
+  .col_right {
+    margin: 0 0 0 30px;
+  }
+
+  .program-title {
+    padding: 235px 0 0 0;
   }
 }
 
