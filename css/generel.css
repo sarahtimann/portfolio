@@ -88,7 +88,7 @@ img {
   display: none;
 }
 
-@media (max-width: 840px) {
+@media (max-width: 900px) {
   .menu {
     display: none;
   }
@@ -97,7 +97,7 @@ img {
   }
 
   .burger.active .line:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(5px, 6px);
     transition: 0.2s linear;
   }
 
@@ -107,7 +107,7 @@ img {
   }
 
   .burger.active .line:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
+    transform: rotate(-45deg) translate(5px, -6px);
     transition: 0.2s linear;
   }
 
@@ -141,35 +141,36 @@ img {
     grid-template-columns: 1fr 1fr;
   }
 
-  .col {
+  /* .col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     max-width: 100%;
     width: auto;
-  }
+  } */
 
   .line1 {
-    position: relative;
+    /* position: relative; */
     left: 25%;
     margin-top: 110px;
     font-size: 90px;
   }
 
   .line2 {
-    position: relative;
+    /* position: relative; */
     left: 10%;
     margin-top: 30px;
     font-size: 90px;
   }
 
   .mig {
-    width: 60%;
-    margin-top: 5px;
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 150px;
   }
 
   .footer-index {
-    margin-top: 150px;
+    margin-top: 110px;
   }
 }
 
@@ -183,6 +184,10 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .project-title {
+    margin-top: 80px;
+  }
+
   .circle {
     max-width: 100%;
   }
@@ -190,7 +195,7 @@ img {
   .tema2 {
     display: grid;
     grid-column: 2 / 3;
-    grid-row: 1 / 2;
+    /* grid-row: 1 / 2; */
   }
 
   .tema3 {
@@ -229,7 +234,7 @@ img {
   }
 
   .h2-tema {
-    grid-column: 2 / 3;
+    /* grid-column: 2 / 3; */
     text-align: right;
     margin-right: -20px;
   }
@@ -239,11 +244,11 @@ img {
     justify-content: flex-end; /* Sørg for, at indholdet placeres til venstre */
   }
 
-  .link-passion {
+  /* .link-site {
     max-width: none;
     display: inline-block;
-    margin-left: 0; /* Fjern evt. margin, hvis det tidligere blev brugt til højrejustering */
-  }
+    margin-left: 0;
+  } */
 }
 
 /*************** TEMA SIDE CSS SLUT *********************/
@@ -261,10 +266,10 @@ img {
     order: 2;
   }
 
-  .grid_3-3 {
+  /* .grid_3-3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
+  } */
 
   .grid_1-1-1 {
     display: grid;
