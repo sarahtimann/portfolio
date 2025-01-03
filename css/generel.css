@@ -257,13 +257,8 @@ img {
     gap: 20px;
   }
 
-  .col_left {
+  .col_img-text {
     order: 2;
-  }
-
-  .col_right {
-    padding: 30px 0 0 0;
-    order: 1;
   }
 
   .grid_3-3 {
