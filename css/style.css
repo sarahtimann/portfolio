@@ -86,7 +86,7 @@ p {
 }
 
 .link-item:hover .text {
-  transform: scale(1.1); /* Gør teksten større ved hover */
+  transform: scale(1.2); /* Gør teksten større ved hover */
   transition: transform 0.5s ease; /* Glidende overgang */
 }
 
@@ -125,8 +125,8 @@ p {
 }
 
 .link-site:hover {
-  color: #8298d9; /* Ændrer farve ved hover */
-  border-color: #8298d9; /* Matcher kantens farve med hoveren */
+  transform: scale(1.1); /* Forstørre ikonet ved hover */
+  transition: transform 0.5s ease; /* Gør overgangen glidende */
 }
 
 /*************** TEMA SIDE SLUT *********************/
@@ -137,6 +137,13 @@ p {
   display: grid;
   width: 70%; /* Størrelse på img */
   margin: 0 auto; /* Centrerer billedet i containeren */
+}
+
+.p-timeline {
+  color: #2449ef;
+  padding: 10px 0 0 0; /* Afstand over tekstafsnit */
+  font-family: "Inria Serif", serif;
+  font-size: 30px;
 }
 
 .grid_1-1-1-1-1-1 {
