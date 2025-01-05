@@ -1,84 +1,77 @@
-h1,
-a {
-  color: #2449ef;
-  font-family: "Anton", serif;
+h1 {
+  color: #2449ef; /* Farve for alle h1 */
+  font-family: "Anton", serif; /* Skrifttype for alle h1 */
 }
 
 main {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px;
+  max-width: 1200px; /* Begrænser bredden for desktop view for bedre læsbarhed */
+  margin: 0 auto; /* Centrerer main container */
+  padding: 10px; /* Tilføjer lidt indvendig padding */
 }
 
 footer {
-  padding: 0 10px 0 10px;
-}
-
-.footer-index {
-  margin-top: 50px;
+  padding: 0 10px 0 10px; /* Tiæføjer lidt mellemrum ude i siderne for footeren */
 }
 
 a {
-  font-size: 40px;
+  font-size: 40px; /* Størrelse for links */
+  font-family: "Anton", serif; /* Skrifttype for links */
 }
 
 h1 {
-  font-size: 70px;
-  /* padding: 0 0 30px 0; */
+  font-size: 70px; /* Skriftstørrelse */
 }
 
 h2 {
   color: #2449ef;
   font-family: "Anton", serif;
   font-size: 50px;
-  padding: 30px 0 0 0;
+  padding: 30px 0 0 0; /* Afstand over overskrifter (primært til tema-sider) */
 }
 
 h3 {
   color: #2449ef;
   font-family: "Anton", serif;
   font-size: 30px;
-  /* padding: 20px 0 0 0; */
-  margin: 40px 0 0 0;
+  margin: 40px 0 0 0; /* Afstand over overskrifter */
 }
 
 p {
-  padding: 10px 0 0 0;
+  padding: 10px 0 0 0; /* Afstand over tekstafsnit */
   font-family: "Inria Serif", serif;
 }
 
 .logo {
-  width: 70px;
-  height: auto;
+  width: 70px; /* Bestemmer størrelse på logo */
+  height: auto; /* Bevarer logoets proportioner */
 }
 
 .logo {
   display: flex;
-  align-items: center;
+  align-items: center; /* Centrerer logoet på linje med resten af indholdet i headeren */
 }
 
 /*************** INDEX START *********************/
 
 .line1 {
   position: relative;
-  margin-top: 30px;
-  left: 10%;
+  margin-top: 30px; /* Tilføjer afstand over teksten og rykker dermed teksten ned */
+  left: 10%; /* Flytter teksten lidt til højre */
 }
 
 .line2 {
   position: relative;
-  margin-top: 30px;
-  left: 25%;
+  left: 25%; /* Flytter teksten mod højre */
 }
 
 .mig {
-  width: 70%;
-  margin-left: 70px;
-  margin-top: 20px;
+  width: 70%; /* Billedets bredde/størrelse */
+  margin-left: 70px; /* Placerer billedet over til højre */
+  margin-top: 20px; /* Afstand over billedet */
 }
 
 .footer-index {
-  margin-top: 40px;
+  margin-top: 40px; /* Rykker footeren længere ned */
 }
 
 /*************** INDEX SLUT *********************/
@@ -87,38 +80,30 @@ p {
 
 .link-item {
   display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr;
-  align-items: center;
-  justify-items: center;
-  text-decoration: none;
+  align-items: center; /* Rykker tekst i midten af cirklen */
+  justify-items: center; /* Rykker cirklen i midten af siden */
+  text-decoration: none; /* Fjerner understregning */
 }
 
 .link-item:hover .text {
-  color: white;
-  transform: scale(1.1); /* Justere for meget teksten i cirklen udvider sig når musen er henover */
-  transition: transform 0.5s ease;
+  transform: scale(1.1); /* Gør teksten større ved hover */
+  transition: transform 0.5s ease; /* Glidende overgang */
 }
 
 .circle {
-  max-width: 80%;
-  object-fit: cover;
-  grid-row: 1 / 2;
-  grid-column: 1 / 2;
-  /* align-self: stretch; */
-  /* display: block; */
-  padding: 10px 10px 10px 10px;
-  /* align-items: center;
-  justify-items: center; */
+  max-width: 80%; /* Justere størrelsen for cirklerne */
+  grid-row: 1 / 2; /* Cirklen placeres i samme række som tekstem */
+  grid-column: 1 / 2; /* Cirklen placeres i samme kolonne som teksten */
+  padding: 10px 10px 10px 10px; /* Tilføjer indvendig afstand */
 }
 
 .text {
-  grid-row: 1 / 2;
-  grid-column: 1 / 2;
-  color: white;
-  text-align: center;
+  grid-row: 1 / 2; /* Teksten placeres i samme række som cirklen */
+  grid-column: 1 / 2; /* Teksten placeres i samme kolonne som cirklen */
+  color: white; /* Tekstfarve */
+  text-align: center; /* Centrerer teksten */
   font-size: 40px;
-  padding: 1px;
+  padding: 1px; /* Rykker teksten mere i midten af cirklen vandret og lodret */
 }
 
 /*************** PROJEKTER SLUT *********************/
@@ -126,23 +111,22 @@ p {
 /*************** TEMA SIDE SLUT *********************/
 
 .tema2-img {
-  width: 80%;
+  width: 80%; /* Justere bredden på billedet */
 }
 
 .link-site {
-  display: inline-block;
   color: #2449ef;
   font-size: 30px;
-  text-decoration: none;
-  border: 4px solid #2449ef;
-  border-radius: 10px;
-  padding: 5px;
-  margin: 10px;
+  text-decoration: none; /* Fjerner understregning */
+  border: 4px solid #2449ef; /* Tilføjer tydelig kant om link */
+  border-radius: 10px; /* Bløde kanter/hjørner om link */
+  padding: 5px; /* Indvendig afstand */
+  margin: 10px; /* Afstand udenom linket */
 }
 
 .link-site:hover {
-  color: #8298d9;
-  border-color: #8298d9;
+  color: #8298d9; /* Ændrer farve ved hover */
+  border-color: #8298d9; /* Matcher kantens farve med hoveren */
 }
 
 /*************** TEMA SIDE SLUT *********************/
@@ -152,15 +136,15 @@ p {
 .portraet {
   display: grid;
   width: 70%; /* Størrelse på img */
-  margin: 0 auto;
+  margin: 0 auto; /* Centrerer billedet i containeren */
 }
 
 .grid_1-1-1-1-1-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  width: 70%;
-  gap: 20px;
-  padding: 10px 0 0 0;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* Seks lige store kolonner */
+  width: 70%; /* Begrænser griddets bredde, så det ikke fylder helt ud i siden */
+  gap: 20px; /* Afstand mellem kolonnerne/ikonerne */
+  padding: 10px 0 0 0; /* Indvendig afstand */
 }
 
 /*************** OM SLUT *********************/
