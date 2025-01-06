@@ -217,12 +217,7 @@ img {
 
   .h2-tema {
     text-align: right; /* Rykker teksten til højre af siden */
-    margin-right: -20px; /* Justere præcis hvor meget til højre teksten skal flyttes */
-  }
-
-  .link-container {
-    display: flex;
-    justify-content: flex-end; /* Sørger for at indholdet placeres til venstre */
+    margin-right: 200px; /* Justere præcis hvor meget til højre teksten skal flyttes */
   }
 }
 

@@ -37,7 +37,7 @@ h3 {
 }
 
 p {
-  padding: 10px 0 0 0; /* Afstand over tekstafsnit */
+  padding: 20px 0 20px 0; /* Afstand over tekstafsnit */
   font-family: "Inria Serif", serif;
 }
 
@@ -86,7 +86,7 @@ p {
 }
 
 .link-item:hover .text {
-  transform: scale(1.2); /* Gør teksten større ved hover */
+  transform: scale(1.1); /* Gør teksten større ved hover */
   transition: transform 0.5s ease; /* Glidende overgang */
 }
 
@@ -110,11 +110,8 @@ p {
 
 /*************** TEMA SIDE SLUT *********************/
 
-.tema2-img {
-  width: 80%; /* Justere bredden på billedet */
-}
-
 .link-site {
+  display: inline-block;
   color: #2449ef;
   font-size: 30px;
   text-decoration: none; /* Fjerner understregning */
@@ -137,6 +134,12 @@ p {
   display: grid;
   width: 70%; /* Størrelse på img */
   margin: 0 auto; /* Centrerer billedet i containeren */
+}
+
+.om-text {
+  color: black;
+  padding: 10px 0 0 0; /* Afstand over tekstafsnit */
+  font-family: "Inria Serif", serif;
 }
 
 .p-timeline {
