@@ -64,7 +64,7 @@ p {
   left: 25%; /* Flytter teksten mod højre */
 }
 
-.mig {
+.index-img {
   width: 70%; /* Billedets bredde/størrelse */
   margin-left: 70px; /* Placerer billedet over til højre */
   margin-top: 20px; /* Afstand over billedet */
@@ -109,6 +109,10 @@ p {
 /*************** PROJEKTER SLUT *********************/
 
 /*************** TEMA SIDE SLUT *********************/
+
+.tema-liste {
+  padding: 10px 0 0 0;
+}
 
 .link-site {
   display: inline-block;
