@@ -115,37 +115,26 @@ a {
 
 /*************** TEMA SIDE SLUT *********************/
 
-.tema-liste {
-  padding: 10px 0 0 0; /* Tilføjer padding i topen af hver tekst i listen på tema side, for at skabe mellemrum imellem tekst */
-}
-
 .list {
   margin: 0 0 50px 0; /* Tilføjer margin under listen på tema side */
 }
 
-.link-result {
+.tema-liste {
+  padding: 10px 0 0 0; /* Tilføjer padding i topen af hver tekst i listen på tema side, for at skabe mellemrum imellem tekst */
+}
+
+.link {
   display: inline-block;
   color: #2449ef;
   font-size: 20px;
   text-decoration: none; /* Fjerner understregning */
   border-radius: 20px;
   border: 3px solid #2449ef;
+  margin: 10px 0 30px 0;
   padding: 10px; /* Indvendig afstand */
-  margin: 10px 10px 50px -5px; /* Afstand udenom linket */
 }
 
-.link-site {
-  display: inline-block;
-  color: #2449ef;
-  font-size: 20px;
-  text-decoration: none; /* Fjerner understregning */
-  border-radius: 20px;
-  border: 3px solid #2449ef;
-  padding: 10px; /* Indvendig afstand */
-  margin: 20px 0 20px -5px; /* Afstand udenom linket */
-}
-
-.link-result-tema5 {
+.link-tema5 {
   display: inline-block;
   color: #2449ef;
   font-size: 20px;
@@ -156,23 +145,22 @@ a {
   margin: 10px 10px 5px -5px; /* Afstand udenom linket */
 }
 
-.link-tema5 {
+.link-tema5-space {
   margin: 0 0 50px 0; /* Tilføjer margin under links til resultater på tema 5 */
 }
 
-.link-site:hover {
+.link:hover {
   color: #8298d9; /* Farve på tekst */
   border: 3px solid #8298d9; /* Farve på kanten */
 }
 
-.link-result:hover {
+.link-tema5:hover {
   color: #8298d9; /* Farve på tekst */
   border: 3px solid #8298d9; /* Farve på kanten */
 }
 
-.link-result-tema5:hover {
-  color: #8298d9; /* Farve på tekst */
-  border: 3px solid #8298d9; /* Farve på kanten */
+.down-link {
+  padding: 60px 0 0 0;
 }
 
 .pulse {
@@ -200,7 +188,7 @@ a {
   display: grid;
   width: 70%; /* Størrelse på img */
   margin: 0 auto; /* Centrerer billedet i containeren */
-  padding: 10px 0 10px 0;
+  padding: 30px 0 10px 0;
 }
 
 .om-text {
