@@ -202,6 +202,7 @@ ul {
   display: grid;
   width: 70%; /* Størrelse på img */
   margin: 0 auto; /* Centrerer billedet i containeren */
+  padding: 10px 0 10px 0;
 }
 
 .om-text {
