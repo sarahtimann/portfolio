@@ -42,7 +42,7 @@ p {
 }
 
 .logo {
-  width: 70px; /* Bestemmer størrelse på logo */
+  width: 50px; /* Bestemmer størrelse på logo */
   height: auto; /* Bevarer logoets proportioner */
 }
 
@@ -91,7 +91,7 @@ p {
 }
 
 .circle {
-  max-width: 80%; /* Justere størrelsen for cirklerne */
+  max-width: 90%; /* Justere størrelsen for cirklerne */
   grid-row: 1 / 2; /* Cirklen placeres i samme række som tekstem */
   grid-column: 1 / 2; /* Cirklen placeres i samme kolonne som teksten */
   padding: 10px 10px 10px 10px; /* Tilføjer indvendig afstand */

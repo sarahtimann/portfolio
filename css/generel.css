@@ -40,10 +40,22 @@ img {
   display: flex; /* Sørger for at sociale medie-ikoner ligger på én linje */
   justify-content: flex-end; /* Placerer ikonerne til højre */
   align-items: center; /* Centrer lodret */
-  gap: 30px; /* Tilføjer mellemrum mellem ikonerne */
+  gap: 10px; /* Tilføjer mellemrum mellem ikonerne */
   list-style: none; /* Fjerner prikker ud for */
   padding: 0;
   margin: 0;
+}
+
+@media (min-width: 900px) {
+  .footer_social_media {
+    display: flex; /* Sørger for at sociale medie-ikoner ligger på én linje */
+    justify-content: flex-end; /* Placerer ikonerne til højre */
+    align-items: center; /* Centrer lodret */
+    gap: 40px; /* Tilføjer mellemrum mellem ikonerne */
+    list-style: none; /* Fjerner prikker ud for */
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .footer_social_media img {
