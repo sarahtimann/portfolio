@@ -19,13 +19,23 @@ a {
 }
 
 h1 {
-  font-size: 65px; /* Skriftstørrelse */
+  font-size: 50px; /* Skriftstørrelse */
+}
+
+@media (min-width: 900px) {
+  h1 {
+    font-size: 65px; /* Skriftstørrelse */
+  }
+
+  h2 {
+    font-size: 50px;
+  }
 }
 
 h2 {
   color: #2449ef;
   font-family: "Anton", serif;
-  font-size: 50px;
+  font-size: 35px;
   padding: 50px 0 0 0; /* Afstand over overskrifter (primært til tema-sider) */
 }
 
@@ -54,20 +64,27 @@ p {
 /*************** INDEX START *********************/
 
 .line1 {
-  position: relative;
-  margin-top: 30px; /* Tilføjer afstand over teksten og rykker dermed teksten ned */
-  left: 10%; /* Flytter teksten lidt til højre */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px 0 0 0;
 }
 
 .line2 {
-  position: relative;
-  left: 25%; /* Flytter teksten mod højre */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .index-img {
-  width: 70%; /* Billedets bredde/størrelse */
-  margin-left: 70px; /* Placerer billedet over til højre */
-  margin-top: 20px; /* Afstand over billedet */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%; /* Billedets bredde/størrelse */
+  padding: 50px 0 0 0;
 }
 
 .footer-index {
