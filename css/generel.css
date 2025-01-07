@@ -140,7 +140,7 @@ img {
 
   .line1 {
     left: 25%; /* Placerer teksten lidt til højre */
-    margin-top: 110px; /* Rykker teksten ned */
+    margin-top: 160px; /* Rykker teksten ned */
     font-size: 90px; /* Skriftstørrelse */
   }
 
@@ -150,14 +150,14 @@ img {
     font-size: 90px; /* Skriftstørrelse */
   }
 
-  .mig {
+  .index-img {
     width: 70%; /* Størrelse på billede */
     margin-top: 100px; /* Rykker billede ned */
     margin-left: 150px; /* Rykker billede til højre */
   }
 
   .footer-index {
-    margin-top: 100px; /* Regulerer hvor på siden footeren skal placeres */
+    margin-top: 170px; /* Regulerer hvor på siden footeren skal placeres */
   }
 }
 
@@ -213,11 +213,12 @@ img {
 
   .order {
     order: -1; /* Får billedet til at skifte fra højre til venstre side */
+    padding: 0 20px 0 0;
   }
 
   .h2-tema {
     text-align: right; /* Rykker teksten til højre af siden */
-    margin-right: 200px; /* Justere præcis hvor meget til højre teksten skal flyttes */
+    margin-right: 445px; /* Justere præcis hvor meget til højre teksten skal flyttes */
   }
 }
 

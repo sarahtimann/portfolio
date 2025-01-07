@@ -19,14 +19,14 @@ a {
 }
 
 h1 {
-  font-size: 70px; /* Skriftstørrelse */
+  font-size: 65px; /* Skriftstørrelse */
 }
 
 h2 {
   color: #2449ef;
   font-family: "Anton", serif;
   font-size: 50px;
-  padding: 30px 0 0 0; /* Afstand over overskrifter (primært til tema-sider) */
+  padding: 50px 0 0 0; /* Afstand over overskrifter (primært til tema-sider) */
 }
 
 h3 {
@@ -71,7 +71,7 @@ p {
 }
 
 .footer-index {
-  margin-top: 40px; /* Rykker footeren længere ned */
+  margin-top: 140px; /* Rykker footeren længere ned */
 }
 
 /*************** INDEX SLUT *********************/
@@ -114,20 +114,77 @@ p {
   padding: 10px 0 0 0;
 }
 
+ul {
+  margin: 0 0 50px 0;
+}
+
+.link-result {
+  display: inline-block;
+  color: #2449ef;
+  font-size: 20px;
+  text-decoration: none; /* Fjerner understregning */
+  border-radius: 20px;
+  border: 3px solid #2449ef;
+  padding: 10px; /* Indvendig afstand */
+  margin: 10px 10px 50px -5px; /* Afstand udenom linket */
+}
+
 .link-site {
   display: inline-block;
   color: #2449ef;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none; /* Fjerner understregning */
-  border: 4px solid #2449ef; /* Tilføjer tydelig kant om link */
-  border-radius: 10px; /* Bløde kanter/hjørner om link */
-  padding: 5px; /* Indvendig afstand */
-  margin: 10px; /* Afstand udenom linket */
+  border-radius: 20px;
+  border: 3px solid #2449ef;
+  padding: 10px; /* Indvendig afstand */
+  margin: 20px 0 20px -5px; /* Afstand udenom linket */
+}
+
+.link-result-tema5 {
+  display: inline-block;
+  color: #2449ef;
+  font-size: 20px;
+  text-decoration: none; /* Fjerner understregning */
+  border-radius: 20px;
+  border: 3px solid #2449ef;
+  padding: 10px; /* Indvendig afstand */
+  margin: 10px 10px 5px -5px; /* Afstand udenom linket */
+}
+
+.link-tema5 {
+  margin: 0 0 50px 0;
 }
 
 .link-site:hover {
-  transform: scale(1.1); /* Forstørre ikonet ved hover */
-  transition: transform 0.5s ease; /* Gør overgangen glidende */
+  color: #8298d9; /* Farve på tekst */
+  border: 3px solid #8298d9; /* Farve på kanten */
+}
+
+.link-result:hover {
+  color: #8298d9; /* Farve på tekst */
+  border: 3px solid #8298d9; /* Farve på kanten */
+}
+
+.link-result-tema5:hover {
+  color: #8298d9; /* Farve på tekst */
+  border: 3px solid #8298d9; /* Farve på kanten */
+}
+
+#pulse {
+  animation-name: pulse_kf;
+  animation-duration: 1s; /* Angiver varigheden af animationen */
+  animation-iteration-count: infinite; /* Animationen kører uendeligt */
+  animation-timing-function: linear; /* Animationen kører med en lineær timing, jævn over tid */
+  animation-direction: alternate-reverse; /* Animationen skifter mellem normal og omvendt for hver gentagelse */
+}
+
+@keyframes pulse_kf {
+  from {
+    scale: 95%; /* Scalere fra 95% til 100% */
+  }
+  to {
+    scale: 100%;
+  }
 }
 
 /*************** TEMA SIDE SLUT *********************/
@@ -153,12 +210,19 @@ p {
   font-size: 30px;
 }
 
-.grid_1-1-1-1-1-1 {
+.grid_1-1-1-1-1-1-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* Seks lige store kolonner */
-  width: 70%; /* Begrænser griddets bredde, så det ikke fylder helt ud i siden */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* Seks lige store kolonner */
+  width: 80%; /* Begrænser griddets bredde, så det ikke fylder helt ud i siden */
   gap: 20px; /* Afstand mellem kolonnerne/ikonerne */
   padding: 10px 0 0 0; /* Indvendig afstand */
+}
+
+.adobe-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 400%; /* Begrænser griddets bredde, så det ikke fylder helt ud i siden */
+  gap: 20px; /* Afstand mellem kolonnerne/ikonerne */
 }
 
 /*************** OM SLUT *********************/
