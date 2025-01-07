@@ -15,7 +15,7 @@
 
 .menu a {
   display: block; /* Gør links til blokke for et bedre klikområde */
-  padding: 0 25px 0; /* Tilføjer indre padding for bedre klikområde */
+  padding: 0 25px 0 0; /* Tilføjer indre padding for bedre klikområde */
   color: #2449ef; /* Sætter linkfarve/skriftfarve */
   text-decoration: none; /* Fjerner understregning fra links */
 }
