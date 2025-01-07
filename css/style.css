@@ -19,7 +19,7 @@ a {
 }
 
 h1 {
-  font-size: 60px; /* Skriftstørrelse */
+  font-size: 50px; /* Skriftstørrelse */
 }
 
 h2 {
@@ -55,6 +55,7 @@ p {
 
 .line1 {
   display: grid;
+  font-size: 60px;
   justify-content: center; /* Centrerer teksten vandret */
   align-items: center; /* Centrerer teksten lodret */
   margin: 0 auto; /* Gør marginerne automatiske på venstre og højre for at centrere */
@@ -63,6 +64,7 @@ p {
 
 .line2 {
   display: grid;
+  font-size: 60px;
   justify-content: center; /* Centrerer teksten vandret */
   align-items: center; /* Centrerer teksten lodret */
   margin: 0 auto; /* Gør marginerne automatiske på venstre og højre for at centrere */
