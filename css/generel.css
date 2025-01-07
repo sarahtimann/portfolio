@@ -22,7 +22,7 @@ header {
 
 .menu a {
   display: block; /* Gør links til blokke for et bedre klikområde */
-  padding: 10px; /* Tilføjer indre padding for bedre klikområde */
+  padding: 0 10px 0; /* Tilføjer indre padding for bedre klikområde */
   color: #2449ef; /* Sætter linkfarve/skriftfarve */
   text-decoration: none; /* Fjerner understregning fra links */
 }
@@ -44,18 +44,6 @@ img {
   list-style: none; /* Fjerner prikker ud for */
   padding: 0;
   margin: 0;
-}
-
-@media (min-width: 900px) {
-  .footer_social_media {
-    display: flex; /* Sørger for at sociale medie-ikoner ligger på én linje */
-    justify-content: flex-end; /* Placerer ikonerne til højre */
-    align-items: center; /* Centrer lodret */
-    gap: 40px; /* Tilføjer mellemrum mellem ikonerne */
-    list-style: none; /* Fjerner prikker ud for */
-    padding: 0;
-    margin: 0;
-  }
 }
 
 .footer_social_media img {
@@ -151,13 +139,15 @@ img {
   }
 
   .line1 {
-    left: 25%; /* Placerer teksten lidt til højre */
-    margin-top: 160px; /* Rykker teksten ned */
+    position: relative;
+    left: -10%; /* Placerer teksten over til venstre */
+    margin-top: 120px; /* Rykker teksten ned */
     font-size: 90px; /* Skriftstørrelse */
   }
 
   .line2 {
-    left: 10%; /* Placerer teksten lidt til højre */
+    position: relative;
+    left: 30%; /* Placerer teksten lidt til højre */
     margin-top: 30px; /* Rykker teksten ned */
     font-size: 90px; /* Skriftstørrelse */
   }
@@ -230,7 +220,7 @@ img {
 
   .h2-tema {
     text-align: right; /* Rykker teksten til højre af siden */
-    margin-right: 445px; /* Justere præcis hvor meget til højre teksten skal flyttes */
+    margin-right: 490px; /* Justere præcis hvor meget til højre teksten skal flyttes */
   }
 }
 
@@ -257,3 +247,25 @@ img {
 }
 
 /*************** OM SIDE CSS SLUT *********************/
+
+@media (min-width: 900px) {
+  .footer_social_media {
+    display: flex; /* Sørger for at sociale medie-ikoner ligger på én linje */
+    justify-content: flex-end; /* Placerer ikonerne til højre */
+    align-items: center; /* Centrer lodret */
+    gap: 40px; /* Tilføjer mellemrum mellem ikonerne */
+    list-style: none; /* Fjerner prikker ud for */
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (min-width: 900px) {
+  h1 {
+    font-size: 65px; /* Skriftstørrelse */
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+}
