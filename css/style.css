@@ -1,24 +1,6 @@
 h1 {
   color: #2449ef; /* Farve for alle h1 */
   font-family: "Anton", serif; /* Skrifttype for alle h1 */
-}
-
-main {
-  max-width: 1200px; /* Begrænser bredden for desktop view for bedre læsbarhed */
-  margin: 0 auto; /* Centrerer main container */
-  padding: 10px; /* Tilføjer lidt indvendig padding */
-}
-
-footer {
-  padding: 40px 10px 0 10px; /* Tiæføjer lidt mellemrum ude i siderne for footeren */
-}
-
-a {
-  font-size: 40px; /* Størrelse for links */
-  font-family: "Anton", serif; /* Skrifttype for links */
-}
-
-h1 {
   font-size: 50px; /* Skriftstørrelse */
 }
 
@@ -39,6 +21,21 @@ h3 {
 p {
   padding: 20px 0 20px 0; /* Afstand over tekstafsnit */
   font-family: "Inria Serif", serif;
+}
+
+main {
+  max-width: 1200px; /* Begrænser bredden for desktop view for bedre læsbarhed */
+  margin: 0 auto; /* Centrerer main container */
+  padding: 10px; /* Tilføjer lidt indvendig padding */
+}
+
+footer {
+  padding: 40px 10px 0 10px; /* Tiæføjer lidt mellemrum ude i siderne for footeren */
+}
+
+a {
+  font-size: 40px; /* Størrelse for links */
+  font-family: "Anton", serif; /* Skrifttype for links */
 }
 
 .logo {
@@ -121,7 +118,7 @@ p {
   padding: 10px 0 0 0; /* Tilføjer padding i topen af hver tekst i listen på tema side, for at skabe mellemrum imellem tekst */
 }
 
-ul {
+.list {
   margin: 0 0 50px 0; /* Tilføjer margin under listen på tema side */
 }
 
@@ -177,7 +174,7 @@ ul {
   border: 3px solid #8298d9; /* Farve på kanten */
 }
 
-#pulse {
+.pulse {
   animation-name: pulse_kf;
   animation-duration: 1s; /* Angiver varigheden af animationen */
   animation-iteration-count: infinite; /* Animationen kører uendeligt */
