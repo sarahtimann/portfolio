@@ -4,14 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #e6e5d9; /* Baggrundsfarven for alle sider */
-}
-
-header {
-  display: flex; /* Gør header til en fleksibel container */
-  justify-content: space-between; /* Fordeler elementer med lige meget plads imellem */
-}
+/*************** MENU *********************/
 
 .menu {
   display: flex; /* Gør menuen horisontal */
@@ -31,10 +24,9 @@ header {
   color: #8298d9; /* Ændrer farve ved hover for bedre brugervenlighed- og oplevelse */
 }
 
-img {
-  width: 100%; /* Sørger for at billeder vises i 100% størrelse */
-  height: auto; /* Bevarer billeders højde (proportioner) */
-}
+/*************** MENU SLUT *********************/
+
+/*************** FOOTER *********************/
 
 .footer_social_media {
   display: flex; /* Sørger for at sociale medie-ikoner ligger på én linje */
@@ -61,6 +53,8 @@ img {
   justify-content: space-between; /* Fordel pladsen mellem logo og sociale medier */
   align-items: center; /* Rykker olsenstudio.www på linje med logo og sociale medie */
 }
+
+/*************** FOOTER SLUT *********************/
 
 /*************** BURGERMENU *********************/
 
@@ -112,7 +106,7 @@ img {
     display: block; /* Gør menuen synlig, når der trykkes på burgerikonet */
     background-color: #e6e5d9; /* Baggrundsfarven for menuen */
     position: absolute; /* Placerer menuen ovenover andet indhold (fx header og logo) */
-    top: 50px; /* Får menuen til at udfolde sig lige under headeren */
+    top: 55px; /* Får menuen til at udfolde sig lige under headeren */
     right: 0;
     left: 0;
     width: 100%; /* Gør menuen fuldbredde */
@@ -130,7 +124,7 @@ img {
 
 /*************** BURGERMENU SLUT *********************/
 
-/*************** INDEX CSS *********************/
+/*************** INDEX DESKTOP *********************/
 
 @media (min-width: 900px) {
   .grid_1-1 {
@@ -163,9 +157,9 @@ img {
   }
 }
 
-/*************** INDEX SLUT *********************/
+/*************** INDEX DESKTOP SLUT *********************/
 
-/*************** PROJEKTER SIDE CSS *********************/
+/*************** PROJEKTER DESKTOP *********************/
 
 @media (min-width: 900px) {
   .grid_1-4 {
@@ -198,9 +192,9 @@ img {
   }
 }
 
-/*************** PROJEKTER SIDE SLUT *********************/
+/*************** PROJEKTER DESKTOP SLUT *********************/
 
-/*************** TEMA SIDE CSS *********************/
+/*************** TEMA SIDE DESKTOP *********************/
 
 @media (min-width: 900px) {
   .grid_1-2 {
@@ -224,9 +218,9 @@ img {
   }
 }
 
-/*************** TEMA SIDE CSS SLUT *********************/
+/*************** TEMA SIDE DESKTOP SLUT *********************/
 
-/*************** OM SIDE CSS *********************/
+/*************** OM SIDE *********************/
 
 @media (min-width: 900px) {
   .grid_2-2 {
@@ -246,7 +240,9 @@ img {
   }
 }
 
-/*************** OM SIDE CSS SLUT *********************/
+/*************** OM SIDE DESKTOP SLUT *********************/
+
+/*************** FOOTER DESKTOP *********************/
 
 @media (min-width: 900px) {
   .footer_social_media {
@@ -260,6 +256,10 @@ img {
   }
 }
 
+/*************** FOOTER DESKTOP SLUT *********************/
+
+/*************** INDEX DESKTOP *********************/
+
 @media (min-width: 900px) {
   h1 {
     font-size: 70px; /* Skriftstørrelse */
@@ -269,3 +269,5 @@ img {
     font-size: 50px; /* Skriftstørrelse */
   }
 }
+
+/*************** INDEX DESKTOP SLUT *********************/

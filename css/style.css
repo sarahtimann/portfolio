@@ -1,3 +1,21 @@
+* {
+  margin: 0px; /* Fjerner standard margin for alle elementer */
+  padding: 0px; /* Fjerner standard padding for alle elementer */
+  box-sizing: border-box;
+}
+
+/*************** GENERELLE INDSTILLINGER *********************/
+
+body {
+  background-color: #e6e5d9; /* Baggrundsfarven for alle sider */
+}
+
+header {
+  display: flex; /* Gør header til en fleksibel container */
+  justify-content: space-between; /* Fordeler elementer med lige meget plads imellem */
+  padding: 10px 0 0 10px;
+}
+
 h1 {
   color: #2449ef; /* Farve for alle h1 */
   font-family: "Anton", serif; /* Skrifttype for alle h1 */
@@ -49,7 +67,14 @@ a {
   align-items: center; /* Centrerer logoet på linje med resten af indholdet i headeren */
 }
 
-/*************** INDEX START *********************/
+img {
+  width: 100%; /* Sørger for at billeder vises i 100% størrelse */
+  height: auto; /* Bevarer billeders højde (proportioner) */
+}
+
+/*************** GENERELLE INDSTILLINGER SLUT *********************/
+
+/*************** INDEX *********************/
 
 .line1 {
   display: grid;
@@ -81,7 +106,7 @@ a {
 
 /*************** INDEX SLUT *********************/
 
-/*************** PROJEKTER START *********************/
+/*************** PROJEKTER *********************/
 
 .link-item {
   display: grid;
@@ -113,7 +138,7 @@ a {
 
 /*************** PROJEKTER SLUT *********************/
 
-/*************** TEMA SIDE SLUT *********************/
+/*************** TEMA SIDE *********************/
 
 .list {
   margin: 0 0 50px 0; /* Tilføjer margin under listen på tema side */
@@ -182,7 +207,7 @@ a {
 
 /*************** TEMA SIDE SLUT *********************/
 
-/*************** OM START *********************/
+/*************** OM *********************/
 
 .portraet {
   display: grid;
