@@ -159,7 +159,7 @@ img {
   }
 
   .footer-index {
-    margin-top: 170px; /* Regulerer hvor på siden footeren skal placeres */
+    margin-top: 60px; /* Regulerer hvor på siden footeren skal placeres */
   }
 }
 
@@ -266,6 +266,6 @@ img {
   }
 
   h2 {
-    font-size: 50px;
+    font-size: 50px; /* Skriftstørrelse */
   }
 }
